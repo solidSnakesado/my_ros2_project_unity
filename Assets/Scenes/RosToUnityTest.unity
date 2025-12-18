@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -259,6 +259,10 @@ PrefabInstance:
     - target: {fileID: 5420039633828546620, guid: 6124e250d66aa1d45853f7dbc26b1db1, type: 3}
       propertyPath: m_Name
       value: ROSConnectionPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5454562281157213276, guid: 6124e250d66aa1d45853f7dbc26b1db1, type: 3}
+      propertyPath: m_RosIPAddress
+      value: 172.17.217.18
       objectReference: {fileID: 0}
     - target: {fileID: 6082093428604857476, guid: 6124e250d66aa1d45853f7dbc26b1db1, type: 3}
       propertyPath: m_RootOrder

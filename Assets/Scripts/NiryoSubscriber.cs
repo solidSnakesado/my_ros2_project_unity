@@ -27,12 +27,22 @@ public class NiryoSubscriber : MonoBehaviour
             // 첫 번째 목표 지점의 데이터
             JointTrajectoryPointMsg point = msg.points[0];
 
+            // 데이터 개수와 관절 개수가 맞는지 확인
+            if (point.positions.Length != joints.Length)
+            {
+                Debug.LogError($"개수 불일치! 관절: {joints.Length}, 데이터: {point.positions.Length}");
+                return;
+            }
+
             // 로봇의 각 관절을 순회하며 목표 각도를 움직임
             for (int i = 0; i < joints.Length; ++i)
             {
                 // ROS는 라디안(Radian) 단위를 쓰지만 Unity는 도(Degree)를 쓰기 때문에
                 // 변환이 필요
                 float targetAngle = (float)point.positions[i] * Mathf.Rad2Deg;
+
+                // 로그 추가: 각 관절에 들어가는 목표 값 확인
+                Debug.Log($"Joint[{i}] Target: {targetAngle}");
 
                 // 관절을 움직임
                 ArticulationDrive drive = joints[i].xDrive;
