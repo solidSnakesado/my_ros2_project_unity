@@ -56,8 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NiryoSubscriber.cs" />
     <Compile Include="Assets\Scripts\CameraPublisher.cs" />
+    <Compile Include="Assets\Scripts\NiryoSubscriber.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -645,14 +645,23 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Robotics.ROSTCPConnector.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Robotics.ROSTCPConnector.Editor.dll</HintPath>
+    <Reference Include="Unity.Robotics.UrdfImporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Robotics.UrdfImporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="vhacd">
+      <HintPath>Library\ScriptAssemblies\vhacd.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Robotics.UrdfImporter">
+      <HintPath>Library\ScriptAssemblies\Unity.Robotics.UrdfImporter.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Robotics.ROSTCPConnector.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Robotics.ROSTCPConnector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
@@ -675,17 +684,8 @@
     <Reference Include="Unity.Robotics.ROSTCPConnector.MessageGeneration">
       <HintPath>Library\ScriptAssemblies\Unity.Robotics.ROSTCPConnector.MessageGeneration.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Robotics.UrdfImporter.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Robotics.UrdfImporter.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Robotics.UrdfImporter">
-      <HintPath>Library\ScriptAssemblies\Unity.Robotics.UrdfImporter.dll</HintPath>
-    </Reference>
-    <Reference Include="vhacd">
-      <HintPath>Library\ScriptAssemblies\vhacd.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
