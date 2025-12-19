@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{38695801-A668-020D-545D-C43BD1451336}</ProjectGuid>
+    <ProjectGuid>{8F0FA33D-09C4-1927-B808-098E5D130BB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraPublisher.cs" />
-    <Compile Include="Assets\Scripts\NiryoSubscriber.cs" />
     <Compile Include="Assets\Scripts\TargetBlock.cs" />
     <Compile Include="Assets\Scripts\ScenarioManager.cs" />
+    <Compile Include="Assets\Scripts\NiryoSubscriber.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
