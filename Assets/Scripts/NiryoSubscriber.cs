@@ -27,6 +27,9 @@ public class NiryoSubscriber : MonoBehaviour
             // 첫 번째 목표 지점의 데이터
             JointTrajectoryPointMsg point = msg.points[0];
 
+            // joints 배열 크기와 들어온 데이터 크기 중 작은 것을 기준으로 순휘 (에러 방지)
+            int jointCount = Mathf.Min(joints.Length, point.positions.Length);
+
             // 로봇의 각 관절을 순회하며 목표 각도를 움직임
             for (int i = 0; i < joints.Length; ++i)
             {
@@ -34,10 +37,14 @@ public class NiryoSubscriber : MonoBehaviour
                 // 변환이 필요
                 float targetAngle = (float)point.positions[i] * Mathf.Rad2Deg;
 
-                // 관절을 움직임
-                ArticulationDrive drive = joints[i].xDrive;
-                drive.target = targetAngle;
-                joints[i].xDrive = drive;
+                // 해당 관절에 ArticulationBody가 할당되어 있는 지 확인
+                if (joints[i] != null)
+                {
+                    // 관절을 움직임
+                    ArticulationDrive drive = joints[i].xDrive;
+                    drive.target = targetAngle;
+                    joints[i].xDrive = drive;
+                }
             }
         }
     }

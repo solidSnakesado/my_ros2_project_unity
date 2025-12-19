@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\RobotArm_ROS2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|c:\\users\\user\\robotarm_ros2\\assets\\scripts\\scenariomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenariomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|C:\\Users\\USER\\RobotArm_ROS2\\assets\\scripts\\niryosubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\niryosubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|c:\\users\\user\\robotarm_ros2\\assets\\scripts\\camerapublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|c:\\users\\user\\robotarm_ros2\\assets\\scripts\\targetblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\targetblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|C:\\Users\\USER\\RobotArm_ROS2\\assets\\scripts\\camerapublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F0FA33D-09C4-1927-B808-098E5D130BB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,8 +37,38 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ScenarioManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\RobotArm_ROS2\\Assets\\Scripts\\ScenarioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScenarioManager.cs",
+              "ToolTip": "C:\\Users\\USER\\RobotArm_ROS2\\Assets\\Scripts\\ScenarioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScenarioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T01:57:37.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TargetBlock.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\RobotArm_ROS2\\Assets\\Scripts\\TargetBlock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TargetBlock.cs",
+              "ToolTip": "C:\\Users\\USER\\RobotArm_ROS2\\Assets\\Scripts\\TargetBlock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TargetBlock.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T01:55:36.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CameraPublisher.cs",
               "DocumentMoniker": "C:\\Users\\USER\\RobotArm_ROS2\\Assets\\Scripts\\CameraPublisher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraPublisher.cs",
@@ -38,25 +76,24 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraPublisher.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwDoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T08:27:15.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T08:27:15.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NiryoSubscriber.cs",
               "DocumentMoniker": "C:\\Users\\USER\\RobotArm_ROS2\\Assets\\Scripts\\NiryoSubscriber.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NiryoSubscriber.cs",
               "ToolTip": "C:\\Users\\USER\\RobotArm_ROS2\\Assets\\Scripts\\NiryoSubscriber.cs",
               "RelativeToolTip": "Assets\\Scripts\\NiryoSubscriber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T06:35:51.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UrdfRobot.cs",
               "DocumentMoniker": "C:\\Users\\USER\\RobotArm_ROS2\\Library\\PackageCache\\com.unity.robotics.urdf-importer@90f353e435\\Runtime\\UrdfComponents\\UrdfRobot.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.robotics.urdf-importer@90f353e435\\Runtime\\UrdfComponents\\UrdfRobot.cs",
@@ -64,11 +101,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.robotics.urdf-importer@90f353e435\\Runtime\\UrdfComponents\\UrdfRobot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:26:22.87Z"
+              "WhenOpened": "2025-12-18T06:26:22.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UrdfRobotExtensions.cs",
               "DocumentMoniker": "C:\\Users\\USER\\RobotArm_ROS2\\Library\\PackageCache\\com.unity.robotics.urdf-importer@90f353e435\\Runtime\\Extensions\\UrdfRobotExtensions.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.robotics.urdf-importer@90f353e435\\Runtime\\Extensions\\UrdfRobotExtensions.cs",
@@ -76,7 +114,8 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.robotics.urdf-importer@90f353e435\\Runtime\\Extensions\\UrdfRobotExtensions.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAhwIMAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T05:39:12.437Z"
+              "WhenOpened": "2025-12-18T05:39:12.437Z",
+              "EditorCaption": ""
             }
           ]
         }
