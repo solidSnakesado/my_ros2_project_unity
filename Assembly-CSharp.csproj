@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\TargetBlock.cs" />
     <Compile Include="Assets\Scripts\ScenarioManager.cs" />
     <Compile Include="Assets\Scripts\NiryoSubscriber.cs" />
+    <Compile Include="Assets\Scripts\JointStatePublisher.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
